@@ -6,8 +6,11 @@
 
 .left-button {
     /* unique declarations */
+    background-color: black;
+    color: white;
 }
 
 .right-button {
     /* unique declarations */
+    background-color: yellow;
 }
