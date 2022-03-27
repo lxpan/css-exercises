@@ -38,9 +38,19 @@ ul > li {
   list-style-type: none;
 }
 
-.header {
+.left-links, .right-links {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.header, .footer {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  background-color: lightgray;
 }
 
 .content {
@@ -48,15 +58,4 @@ ul > li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.left-links, .right-links {
-  display: flex;
-  padding: 10px;
-  gap: 10px;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
 }
