@@ -25,3 +25,21 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* solution starts here */
+
+/* remove bullets from lists */
+ul > li {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
