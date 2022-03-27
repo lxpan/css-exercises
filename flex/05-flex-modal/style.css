@@ -82,8 +82,8 @@ button.cancel {
   justify-content: space-between;
 }
 
-.button-container {
-  margin-top: 20px;
+.text {
+  margin-bottom: 16px;
 }
 
 .header {
