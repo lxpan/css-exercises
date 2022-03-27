@@ -59,6 +59,11 @@ ul > li {
 }
 
 .footer {
-  background-color: lightgray;
+  background-color: #eeeeee;
   align-items: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
 }
