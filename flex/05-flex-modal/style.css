@@ -67,15 +67,19 @@ button.cancel {
 
 /* solutions start here */
 
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
 .main-container {
   display: inline-block;
-  padding: 20px
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .button-container {
@@ -88,11 +92,6 @@ button.cancel {
   margin-bottom: 10px;
 }
 
-.modal {
-  display: flex
-}
-
 .icon {
   flex-shrink: 0;
-  margin: 5px;
 }
