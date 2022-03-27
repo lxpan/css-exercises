@@ -68,15 +68,24 @@ button.cancel {
 /* solutions start here */
 
 .main-container {
-  display: block;
+  display: inline-block;
+  padding: 20px
 }
 
 .header-container {
   display: flex;
+  justify-content: space-between;
+  
+}
+
+.button-container {
+  margin-top: 20px;
 }
 
 .header {
   font-weight: bold;
+  font-size: larger;
+  margin-bottom: 10px;
 }
 
 .modal {
@@ -85,4 +94,5 @@ button.cancel {
 
 .icon {
   flex-shrink: 0;
+  margin: 5px;
 }
