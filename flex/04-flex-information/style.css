@@ -26,8 +26,11 @@ img {
 }
 
 /* exercise modifications */
-.title {
+body {
   text-align: center;
+}
+
+.title {
   margin-bottom: 32px;
 }
 
@@ -39,10 +42,6 @@ img {
 
 .plant-info {
   width: 200px;
-}
-
-.text {
-  text-align: center;
 }
 
 img {
