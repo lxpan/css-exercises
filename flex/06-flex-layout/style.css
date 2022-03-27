@@ -44,24 +44,29 @@ body {
 }
 
 /* remove bullets from lists */
-ul > li {
+ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
 }
 
+/*
 .left-links, .right-links {
   display: flex;
   padding: 16px;
   gap: 16px;
-}
+}*/
 
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .footer {
   background-color: #eeeeee;
-  align-items: flex-end;
 }
 
 a {
