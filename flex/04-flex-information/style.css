@@ -44,9 +44,3 @@ body {
   width: 200px;
 }
 
-img {
-  /* these lines ensure images are centered */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
