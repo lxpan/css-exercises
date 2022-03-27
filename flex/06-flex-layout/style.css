@@ -67,3 +67,7 @@ a {
   text-decoration: none;
   color: gray;
 }
+
+button {
+  padding: 8px;
+}
