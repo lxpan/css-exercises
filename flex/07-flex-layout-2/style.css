@@ -69,12 +69,12 @@ body {
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  padding: 32px;
 }
 
 .card {
   width: 200px;
   height: auto;
-  padding: 32px;
   margin: 16px;
 }
 
