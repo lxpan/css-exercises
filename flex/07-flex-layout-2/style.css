@@ -79,8 +79,8 @@ body {
 
 .card {
   width: 300px;
-  height: auto;
   margin: 16px;
+  padding: 16px;
 }
 
 .footer {
