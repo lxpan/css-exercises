@@ -28,6 +28,11 @@ body {
 }
 
 /* solution start */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
   font-size: 32px;
@@ -58,6 +63,7 @@ body {
 
 .container {
   display: flex;
+  flex: 1;
 }
 
 .card-container {
