@@ -28,6 +28,13 @@ body {
 }
 
 /* solution start */
+.header {
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  margin-left: 16px;
+}
 
 .container {
   display: flex;
