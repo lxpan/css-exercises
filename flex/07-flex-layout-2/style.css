@@ -36,6 +36,14 @@ body {
   padding-left: 16px;
 }
 
+.sidebar {
+  display: flex;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 16px;
+}
+
 .container {
   display: flex;
 }
