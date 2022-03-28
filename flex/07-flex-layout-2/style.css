@@ -62,6 +62,10 @@ body {
   font-size: 24px;
 }
 
+.sidebar li {
+  margin-bottom: 16px;
+}
+
 .container {
   display: flex;
   flex: 1;
