@@ -10,7 +10,7 @@ body, html {
   box-sizing: border-box;
   display: grid;
   gap: 15px;
-  grid-template-rows: repeat(2, 1fr) 5fr 1fr;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
   grid-template-columns: 1fr 3fr;
 }
 
