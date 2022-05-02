@@ -9,6 +9,10 @@ body, html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
+  /* two columns */
+  grid-template-columns: 1fr 3fr;
+  /* four rows */
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .container div {
