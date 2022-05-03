@@ -79,9 +79,13 @@
 
 .nav {
   background-color: #FF7755;
+  grid-column: 2 / 3;
 }
 
 .nav ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
